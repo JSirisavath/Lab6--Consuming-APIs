@@ -1,0 +1,11 @@
+Original Question:
+
+Part 3: Logging vs Print
+
+When do you use one, when do you use the other? Replace any message that are only of interest to the developer with logging. When you run your program, it should only print user-friendly messages. 
+
+Make sure you can find the log output from your program.  
+
+Should you log sensitive information, for example, values of API keys? 
+
+I think if I want to show users a message, such as non technical users, I want to hide the logging information and error stacks to developers, using the logging library, such as logging.error() method. This will show developers but not users. And so, I would need to communicate a general appropriate message to users such as using the print() method statements. Keeping a clean output to users while also hide sensitive data and information to only developers to see and work with. For example, I should definitely not do a print() statement on my API key to users. But instead, use the python logging library and their methods for that key. 
